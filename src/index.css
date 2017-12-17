@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: #ffffe6;
+    padding: 90px;
+    color: #0099cc;
+}
+
+ul#navigation{
+    list-style-type: none;		/*deletes the bullet point*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0099cc;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    top: 0px;
+    z-index: 100;				/* makes nav bar stay there*/
+}
+
+ul#navigation li{
+    float: left;
+}
+
+ul#navigation li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 90px;
+    text-decoration: none;
+    width: 100px;
+}
+
+li a:hover {
+    background-color: #003cb3;
+}
+
+li a:hover:not(.active) {
+    background-color: #003cb3;
+}
+input[type=text]{
+    width: 300px;
+    height: 50px;
+    font-size: large;
+}
+
+input[type=password]{
+    width: 300px;
+    height: 50px;
+    font-size: large;
+
+}
